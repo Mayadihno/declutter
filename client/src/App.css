@@ -1,0 +1,19 @@
+input,
+select {
+  outline: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='radio'] {
+  accent-color: #901E78;
+}
+
+textarea:focus-visible {
+  border-color: #901E78 !important;
+
+}
